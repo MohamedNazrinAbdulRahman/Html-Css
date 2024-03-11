@@ -1,5 +1,54 @@
+/* Percentage is used for inside the parent element 
+ <section>
+    <div>
+
+    </div>
+  </section>
+
+*/
+section{
+  width: 200px;
+  height: 200px;
+  background-color: teal;
+}
+
 div{
-  width: 100px;
-  height: 100px;
-  color: red; 
+  width: 50%;
+  height: 45%;
+  background-color: red; 
+}
+/* em is font-size 1em is equal to 16px */
+p{
+ font-size: 2em;
+}
+/* rem is 16px font-size */
+h4{
+  font-size: 2rem;
+}
+/* View port width use vw
+div{
+  background-color: blue;
+  width: 25vw;
+  height:100px;
+*/
+/* View port hight use vh
+div{
+  background-color: blue;
+  width: 25vw;
+  height:50vh;
+*/
+
+/* <<<<<<<< Typography (Font) >>>>>>>> 
+
+
+
+
+*/
+h1{
+  font-family: Arial;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+p{
+  line-height: 40px;
 }
