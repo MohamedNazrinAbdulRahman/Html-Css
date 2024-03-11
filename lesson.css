@@ -1,11 +1,13 @@
-/* Percentage is used for inside the parent element 
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+/*  Percentage is used for inside the parent element 
  <section>
     <div>
 
     </div>
   </section>
 
-*/
+
 section{
   width: 200px;
   height: 200px;
@@ -17,38 +19,48 @@ div{
   height: 45%;
   background-color: red; 
 }
-/* em is font-size 1em is equal to 16px */
+
+em is font-size 1em is equal to 16px 
 p{
  font-size: 2em;
 }
-/* rem is 16px font-size */
+
+
+rem is 16px font-size 
 h4{
   font-size: 2rem;
 }
-/* View port width use vw
+
+
+View port width use vw
 div{
   background-color: blue;
   width: 25vw;
   height:100px;
-*/
-/* View port hight use vh
+
+// View port hight use vh
+
 div{
   background-color: blue;
   width: 25vw;
   height:50vh;
-*/
-
-/* <<<<<<<< Typography (Font) >>>>>>>> 
 
 
+// <<<<<<<< Typography (Font) >>>>>>>> 
 
-
-*/
 h1{
-  font-family: Arial;
+  font-family: "Inspiration", cursive;
   font-size: 20px;
   text-transform: capitalize;
+  text-align: center;/* defalut value is left 
+  text-decoration: underline;
 }
+
 p{
   line-height: 40px;
-}
+  letter-spacing: 1px;
+  word-spacing: 25px;
+  font-weight:480;
+} 
+
+*/
