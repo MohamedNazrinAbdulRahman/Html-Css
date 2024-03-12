@@ -80,7 +80,7 @@ img{
    /* filter */ 
  /*  filter: blur(10px); */
  /* filter: brightness(80%); */
- filter: contrast(60%);
+ /* filter: contrast(60%); */
  background-repeat: no-repeat;
  background-position:center;
  background-size: cover;
