@@ -81,6 +81,8 @@ img{
  /*  filter: blur(10px); */
  /* filter: brightness(80%); */
  /* filter: contrast(60%); */
+ /* filter: grayscale(50%); */
+ /* filter: opacity(); */
  background-repeat: no-repeat;
  background-position:center;
  background-size: cover;
