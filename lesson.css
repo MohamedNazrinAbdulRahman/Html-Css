@@ -64,3 +64,14 @@ p{
 } 
 
 */
+
+body{
+  background-image:linear-gradient(to bottom,rgb(97, 184, 97), rgba(228, 70, 70, 0.595) ),url("https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: whitesmoke;
+
+}
